@@ -1,0 +1,242 @@
+.gig{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    .container{
+        display: flex;
+        justify-content: center;
+        width: 1400px;
+        gap: 50px;
+        .left{
+            display: flex;
+            flex-direction: column;
+            flex: 3;
+            gap: 20px;
+            .user{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                .pp{
+                    height: 32px;
+                    width: 32px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+
+                .Stars {
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+          
+                    img {
+                      height: 14px;
+                      width: 14px;
+                    }
+          
+                    span {
+                      font-size: 14px;
+                      font-weight: bold;
+                      color: #ffc108;
+                    }
+                  }
+
+            }
+
+            .slider{
+                display: flex;
+                justify-content: center;
+                img{
+                    height: 500px;
+                    width: 600px;
+                    object-fit: cover;
+                }
+            }
+
+            .seller{
+                display: flex;
+                margin: 20px 0;
+                img{
+                    height: 65px;
+                    width: 65px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+
+                .seller__info{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                }
+                .user__info{
+                    display: flex;
+                    gap: 5px;
+                    flex-direction: column;
+                    margin-top: 30px;
+                    .Stars {
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+              
+                        img {
+                          height: 14px;
+                          width: 14px;
+                        }
+              
+                        span {
+                          font-size: 14px;
+                          font-weight: bold;
+                          color: #ffc108;
+                        }
+                      }
+
+                      button{
+                        padding: 5px;
+                        border-radius: 5px;
+                        border: 1px solid lightgray;
+                      }
+                }
+            }
+
+
+            .gig__info{
+                border: 1px solid lightgray;
+          border-radius: 5px;
+          padding: 20px;
+          margin-top: 20px;
+                .items{
+
+                    display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+                    .gig__infos{
+                        width: 300px;
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              margin-bottom: 20px;
+                        span{}
+                    }
+                }
+            }
+            hr {
+                height: 0;
+                border: 0.5px solid lightgray;
+                margin-bottom: 20px;
+              }
+            .reviews{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                margin-bottom: 20px;
+                
+                .review__user{
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    .pp{
+                        height: 36px;
+                        width: 36px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+
+                    .review__info{
+                        
+                        .info{
+                            display: flex;
+                            gap: 10px;
+                            img{
+                                width: 20px;
+                                object-fit: cover;
+                            }
+                        }
+                    }   
+                }
+                .helpful{
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    gap: 10px;
+                    img{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+                .Stars {
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+          
+                    img {
+                      height: 14px;
+                      width: 14px;
+                    }
+          
+                    span {
+                      font-size: 14px;
+                      font-weight: bold;
+                      color: #ffc108;
+                    }
+                  }
+            }
+         
+        }
+
+        .right{
+            display: flex;
+            flex-direction: column;
+            flex: 2;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+            height: max-content;
+            padding: 20px;
+            position: sticky;
+            top: 160px;
+            gap: 20px;
+            .price{
+                display: flex;
+                justify-content: space-between;
+
+            }
+
+            .delivery{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .delivery__info{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    img{
+                        width: 20px;
+                        height: 20px;
+
+                    }
+                }
+            }
+
+            .feature{
+                display: flex;
+                flex-direction: column;
+                .item{
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    img{
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                }
+            }
+
+            button{
+                padding: 6px;
+                background-color: rgb(6, 199, 6);
+                border: 1px solid lightgray;
+                border-radius: 5px;
+            }
+        }
+    }
+}

@@ -1,0 +1,78 @@
+.gigs{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 ;
+    text-decoration: none;
+    .container{
+        display: flex;
+        width: 1400px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        .menu{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .left{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+
+                input{
+                    padding: 5px 10px;
+                    outline: none;
+                    border-radius: 5px;
+                    border: 1px solid lightgray;
+                }
+
+                button{
+                    padding: 5px 20px;
+                    background-color: rgb(0, 175, 0);
+                    border-radius: 5px;
+                    border: 1px solid white;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+            .right{
+                display: flex;
+                position: relative;
+                gap: 20px;
+                align-items: center;
+                cursor: pointer;
+                
+
+                .dark{
+                    transition: transform .8s ease; 
+                    transform: rotate(180deg);
+                }
+
+                img{
+                    width: 24px;
+                }
+                .rigthMenu{
+                    position: absolute;
+                    display: flex;
+                    flex-direction: column;
+                    background-color: white;
+                    width: 100px;
+                    border: 1px solid white;
+                    border-radius: 5px;
+                    padding: 30px 30px;
+                    right: 0px;
+                    top: 35px;
+                }
+            }
+        }
+        .card{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            height: auto;
+            text-decoration: none !important;
+            
+        }
+
+        
+    }
+}

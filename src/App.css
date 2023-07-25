@@ -1,0 +1,13 @@
+
+body {
+    background-color: #fff;
+    font: 400 16px/24px Macan,Helvetica Neue,Helvetica,Arial,sans-serif;
+    width: 100%;
+    text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #404145;
+    font-family: Macan,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
